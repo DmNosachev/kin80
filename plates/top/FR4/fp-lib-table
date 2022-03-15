@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name logo)(type KiCad)(uri C:/Users/nosachevd/YandexDisk/keyboards/kicad/logo)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri C:/Users/nosachevd/YandexDisk/keyboards/kicad/Keebio-Parts.pretty)(options "")(descr ""))
+)

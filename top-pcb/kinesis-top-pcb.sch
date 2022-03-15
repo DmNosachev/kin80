@@ -1,0 +1,415 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5FB50FD4
+P 2400 2150
+F 0 "K1" H 2400 2383 60  0000 C CNN
+F 1 "KEYSW" H 2400 2050 60  0001 C CNN
+F 2 "fp-ai03:MXOnly-1U-NoLED" H 2400 2150 60  0001 C CNN
+F 3 "" H 2400 2150 60  0000 C CNN
+	1    2400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5FB51697
+P 2100 2450
+F 0 "D1" V 2146 2380 50  0000 R CNN
+F 1 "D_Small" V 2055 2380 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2100 2450 50  0001 C CNN
+F 3 "~" V 2100 2450 50  0001 C CNN
+	1    2100 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 2150 2100 2350
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5FB52908
+P 3250 2150
+F 0 "K2" H 3250 2383 60  0000 C CNN
+F 1 "KEYSW" H 3250 2050 60  0001 C CNN
+F 2 "fp-ai03:MXOnly-1U-NoLED" H 3250 2150 60  0001 C CNN
+F 3 "" H 3250 2150 60  0000 C CNN
+	1    3250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5FB5294A
+P 2950 2450
+F 0 "D2" V 2996 2380 50  0000 R CNN
+F 1 "D_Small" V 2905 2380 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2950 2450 50  0001 C CNN
+F 3 "~" V 2950 2450 50  0001 C CNN
+	1    2950 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 2150 2950 2350
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5FB53217
+P 4100 2150
+F 0 "K3" H 4100 2383 60  0000 C CNN
+F 1 "KEYSW" H 4100 2050 60  0001 C CNN
+F 2 "fp-ai03:MXOnly-1U-NoLED" H 4100 2150 60  0001 C CNN
+F 3 "" H 4100 2150 60  0000 C CNN
+	1    4100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5FB53281
+P 3800 2450
+F 0 "D3" V 3846 2380 50  0000 R CNN
+F 1 "D_Small" V 3755 2380 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3800 2450 50  0001 C CNN
+F 3 "~" V 3800 2450 50  0001 C CNN
+	1    3800 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2150 3800 2350
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5FB5328C
+P 4950 2150
+F 0 "K4" H 4950 2383 60  0000 C CNN
+F 1 "KEYSW" H 4950 2050 60  0001 C CNN
+F 2 "fp-ai03:MXOnly-1U-NoLED" H 4950 2150 60  0001 C CNN
+F 3 "" H 4950 2150 60  0000 C CNN
+	1    4950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5FB53296
+P 4650 2450
+F 0 "D4" V 4696 2380 50  0000 R CNN
+F 1 "D_Small" V 4605 2380 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4650 2450 50  0001 C CNN
+F 3 "~" V 4650 2450 50  0001 C CNN
+	1    4650 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 2150 4650 2350
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5FB552D7
+P 5800 2150
+F 0 "K5" H 5800 2383 60  0000 C CNN
+F 1 "KEYSW" H 5800 2050 60  0001 C CNN
+F 2 "fp-ai03:MXOnly-1U-NoLED" H 5800 2150 60  0001 C CNN
+F 3 "" H 5800 2150 60  0000 C CNN
+	1    5800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5FB55391
+P 5500 2450
+F 0 "D5" V 5546 2380 50  0000 R CNN
+F 1 "D_Small" V 5455 2380 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5500 2450 50  0001 C CNN
+F 3 "~" V 5500 2450 50  0001 C CNN
+	1    5500 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 2150 5500 2350
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5FB5539C
+P 6650 2150
+F 0 "K6" H 6650 2383 60  0000 C CNN
+F 1 "KEYSW" H 6650 2050 60  0001 C CNN
+F 2 "fp-ai03:MXOnly-1U-NoLED" H 6650 2150 60  0001 C CNN
+F 3 "" H 6650 2150 60  0000 C CNN
+	1    6650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5FB553A6
+P 6350 2450
+F 0 "D6" V 6396 2380 50  0000 R CNN
+F 1 "D_Small" V 6305 2380 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6350 2450 50  0001 C CNN
+F 3 "~" V 6350 2450 50  0001 C CNN
+	1    6350 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 2150 6350 2350
+Text GLabel 7350 2550 2    50   Input ~ 0
+ROW_0
+Text GLabel 2700 1650 1    50   Input ~ 0
+COL_0
+Text GLabel 3550 1650 1    50   Input ~ 0
+COL_1
+Text GLabel 4400 1650 1    50   Input ~ 0
+COL_2
+Text GLabel 5250 1650 1    50   Input ~ 0
+COL_3
+Text GLabel 6100 1650 1    50   Input ~ 0
+COL_4
+Text GLabel 6950 1650 1    50   Input ~ 0
+COL_5
+Wire Wire Line
+	2700 1650 2700 2150
+Wire Wire Line
+	3550 1650 3550 2150
+Wire Wire Line
+	4400 1650 4400 2150
+Wire Wire Line
+	5250 1650 5250 2150
+Wire Wire Line
+	6100 1650 6100 2150
+Wire Wire Line
+	6950 1650 6950 2150
+Wire Wire Line
+	2100 2550 2950 2550
+Connection ~ 2950 2550
+Wire Wire Line
+	2950 2550 3800 2550
+Connection ~ 3800 2550
+Wire Wire Line
+	3800 2550 4650 2550
+Connection ~ 4650 2550
+Wire Wire Line
+	4650 2550 5500 2550
+Connection ~ 5500 2550
+Wire Wire Line
+	5500 2550 6350 2550
+Connection ~ 6350 2550
+Wire Wire Line
+	6350 2550 7350 2550
+Text GLabel 8400 2900 2    50   Input ~ 0
+COL_0
+Text GLabel 8400 3000 2    50   Input ~ 0
+COL_1
+Text GLabel 8400 3100 2    50   Input ~ 0
+COL_2
+Text GLabel 8400 3300 2    50   Input ~ 0
+COL_3
+Text GLabel 8400 3400 2    50   Input ~ 0
+COL_4
+Text GLabel 8400 3500 2    50   Input ~ 0
+COL_5
+Text GLabel 8400 3200 2    50   Input ~ 0
+ROW_0
+$Comp
+L keyboard_parts:KEYSW K7
+U 1 1 60A66A18
+P 2400 3550
+F 0 "K7" H 2400 3783 60  0000 C CNN
+F 1 "KEYSW" H 2400 3450 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 2400 3550 60  0001 C CNN
+F 3 "" H 2400 3550 60  0000 C CNN
+	1    2400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 60A66B4E
+P 2100 3850
+F 0 "D7" V 2146 3780 50  0000 R CNN
+F 1 "D_Small" V 2055 3780 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2100 3850 50  0001 C CNN
+F 3 "~" V 2100 3850 50  0001 C CNN
+	1    2100 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 3550 2100 3750
+$Comp
+L keyboard_parts:KEYSW K8
+U 1 1 60A66B59
+P 3250 3550
+F 0 "K8" H 3250 3783 60  0000 C CNN
+F 1 "KEYSW" H 3250 3450 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 3250 3550 60  0001 C CNN
+F 3 "" H 3250 3550 60  0000 C CNN
+	1    3250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 60A66B63
+P 2950 3850
+F 0 "D8" V 2996 3780 50  0000 R CNN
+F 1 "D_Small" V 2905 3780 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2950 3850 50  0001 C CNN
+F 3 "~" V 2950 3850 50  0001 C CNN
+	1    2950 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 3550 2950 3750
+$Comp
+L keyboard_parts:KEYSW K9
+U 1 1 60A66B6E
+P 4100 3550
+F 0 "K9" H 4100 3783 60  0000 C CNN
+F 1 "KEYSW" H 4100 3450 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 4100 3550 60  0001 C CNN
+F 3 "" H 4100 3550 60  0000 C CNN
+	1    4100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 60A66B78
+P 3800 3850
+F 0 "D9" V 3846 3780 50  0000 R CNN
+F 1 "D_Small" V 3755 3780 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3800 3850 50  0001 C CNN
+F 3 "~" V 3800 3850 50  0001 C CNN
+	1    3800 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3550 3800 3750
+$Comp
+L keyboard_parts:KEYSW K10
+U 1 1 60A66B83
+P 4950 3550
+F 0 "K10" H 4950 3783 60  0000 C CNN
+F 1 "KEYSW" H 4950 3450 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 4950 3550 60  0001 C CNN
+F 3 "" H 4950 3550 60  0000 C CNN
+	1    4950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 60A66B8D
+P 4650 3850
+F 0 "D10" V 4696 3780 50  0000 R CNN
+F 1 "D_Small" V 4605 3780 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4650 3850 50  0001 C CNN
+F 3 "~" V 4650 3850 50  0001 C CNN
+	1    4650 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 3550 4650 3750
+$Comp
+L keyboard_parts:KEYSW K11
+U 1 1 60A66B98
+P 5800 3550
+F 0 "K11" H 5800 3783 60  0000 C CNN
+F 1 "KEYSW" H 5800 3450 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 5800 3550 60  0001 C CNN
+F 3 "" H 5800 3550 60  0000 C CNN
+	1    5800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 60A66BA2
+P 5500 3850
+F 0 "D11" V 5546 3780 50  0000 R CNN
+F 1 "D_Small" V 5455 3780 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5500 3850 50  0001 C CNN
+F 3 "~" V 5500 3850 50  0001 C CNN
+	1    5500 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 3550 5500 3750
+$Comp
+L keyboard_parts:KEYSW K12
+U 1 1 60A66BAD
+P 6650 3550
+F 0 "K12" H 6650 3783 60  0000 C CNN
+F 1 "KEYSW" H 6650 3450 60  0001 C CNN
+F 2 "misc:MXOnly-1U-NoLED-twin" H 6650 3550 60  0001 C CNN
+F 3 "" H 6650 3550 60  0000 C CNN
+	1    6650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 60A66C57
+P 6350 3850
+F 0 "D12" V 6396 3780 50  0000 R CNN
+F 1 "D_Small" V 6305 3780 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6350 3850 50  0001 C CNN
+F 3 "~" V 6350 3850 50  0001 C CNN
+	1    6350 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 3550 6350 3750
+Text GLabel 7350 3950 2    50   Input ~ 0
+ROW_0
+Text GLabel 2700 3050 1    50   Input ~ 0
+COL_5
+Text GLabel 3550 3050 1    50   Input ~ 0
+COL_4
+Text GLabel 4400 3050 1    50   Input ~ 0
+COL_3
+Text GLabel 5250 3050 1    50   Input ~ 0
+COL_2
+Text GLabel 6100 3050 1    50   Input ~ 0
+COL_1
+Text GLabel 6950 3050 1    50   Input ~ 0
+COL_0
+Wire Wire Line
+	2700 3050 2700 3550
+Wire Wire Line
+	3550 3050 3550 3550
+Wire Wire Line
+	4400 3050 4400 3550
+Wire Wire Line
+	5250 3050 5250 3550
+Wire Wire Line
+	6100 3050 6100 3550
+Wire Wire Line
+	6950 3050 6950 3550
+Wire Wire Line
+	2100 3950 2950 3950
+Connection ~ 2950 3950
+Wire Wire Line
+	2950 3950 3800 3950
+Connection ~ 3800 3950
+Wire Wire Line
+	3800 3950 4650 3950
+Connection ~ 4650 3950
+Wire Wire Line
+	4650 3950 5500 3950
+Connection ~ 5500 3950
+Wire Wire Line
+	5500 3950 6350 3950
+Connection ~ 6350 3950
+Wire Wire Line
+	6350 3950 7350 3950
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 60A6AE5E
+P 8200 3200
+F 0 "J1" H 8118 2675 50  0000 C CNN
+F 1 "Conn_01x07" H 8118 2766 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53047-0710_1x07_P1.25mm_Vertical" H 8200 3200 50  0001 C CNN
+F 3 "~" H 8200 3200 50  0001 C CNN
+	1    8200 3200
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

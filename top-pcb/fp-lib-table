@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name fp-ai03)(type KiCad)(uri ${KIPRJMOD}/fp-ai03)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/logo)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri ${KIPRJMOD}/keyswitches.pretty-master)(options "")(descr ""))
+  (lib (name misc)(type KiCad)(uri C:/Users/nosachevd/YandexDisk/keyboards/kicad/footprints/misc.pretty)(options "")(descr ""))
+)
