@@ -30,7 +30,9 @@ Additional pads for connecting up to 4 swithes (i.e. additional switches on the 
 
 3. Thumb cluster PCBs require SMD diodes (SOD-323). Soldering them by hand can be tricky for unexperienced people. I'm going to add support for through-hole diodes in the next release.
 
-4. Other TODO's: design universal MX/Choc top row PCB, design FR4 mounting plate for the thumb cluster.
+4. Top row PCB have not been tested yet.
+
+5. Other TODO's: design universal MX/Choc top row PCB, design FR4 mounting plate for the thumb cluster.
 
 ## BOM
 
