@@ -1,10 +1,10 @@
-# Kinesis80
-Kinesis80 is a set of replacement PCBs and switch mounting plates for [Kinesis Contoured keyboards](https://deskthority.net/wiki/Kinesis_Contoured).
+# Kin80
+Kin80 is a set of replacement PCBs and switch mounting plates for [Kinesis Contoured keyboards](https://deskthority.net/wiki/Kinesis_Contoured).
 
 ![White](https://i.imgur.com/Ya9aLS9.jpg)
-![Kinesis80 controller](https://i.imgur.com/Im19DdH.jpg)
+![Kin80 controller](https://i.imgur.com/Im19DdH.jpg)
 
-It is not a drop-in replacement controllers like Stapelberg or KinT (for these controllers I developed a cheap alternative called [kinBP](https://github.com/DmNosachev/kinbp) (will be published soon)). Kinesis80 uses different matrix (12×7) and it is aimed at serious modding of the Kinesis keyboard.
+It is not a drop-in replacement controllers like Stapelberg or KinT (for these controllers I developed a cheap alternative called [kinBP](https://github.com/DmNosachev/kinbp) (will be published soon)). Kin80 uses different matrix (12×7) and it is aimed at serious modding of the Kinesis keyboard.
 
 ## Features
 - Controller with [QMK firmware](https://qmk.fm/) support. The code is temporarily hosted in a [my fork](https://github.com/DmNosachev/qmk_firmware/tree/kinesis80/keyboards/kinesis80), will be merged into the main branch ASAP.
@@ -69,7 +69,7 @@ Additional pads for connecting up to 4 swithes (i.e. additional switches on the 
 
 You may notice that swiches are glued with hot-melt adhesive. To remove it, just wipe it with isopropyl alcohol. It will not dissolve the glue, but make it lose its adhesive properties.
 4. Hand-wire the key-wells. You need *ROW2COL* direction, i.e. the anode of each diode must be connected to a switch pin, cathode (marked by black strip) — to row. See [Modern handwiring guide](https://geekhack.org/index.php?topic=87689.0).
-![Kinesis80 assembled](https://i.imgur.com/PMj0pi5.jpg)
+![Kin80 assembled](https://i.imgur.com/PMj0pi5.jpg)
 5. Assemble thumb cluster PCBs.
 6. Assemble top row PCBs or use hand-wiring.
 7. Assemble the controller PCB.
@@ -77,4 +77,4 @@ You may notice that swiches are glued with hot-melt adhesive. To remove it, just
 8. Case. Cut two windows for new top row keys. You can use hot-melt adhesive to glue the plates to the case. Seal the holes on the back of the case with pieces of plastic. Glue the USB connector to the back of the case. Optional: use bitumen sound deadening pads to improve acoustics.
 ![USB](https://i.imgur.com/xsuOchx.jpg)
 9. [Setup the QMK](https://docs.qmk.fm/).
-10. Flash the firmware: `qmk flash -kb kinesis80 -km default`. Hold 'boot0' button on MCU board, press 'reset', then release 'boot0'.
+10. Flash the firmware: `qmk flash -kb kin80 -km default`. Hold 'boot0' button on MCU board, press 'reset', then release 'boot0'.
