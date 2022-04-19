@@ -7,7 +7,7 @@ Kin80 is a set of replacement PCBs and switch mounting plates for [Kinesis Conto
 It is not a drop-in replacement controllers like Stapelberg or KinT (for these controllers I developed a cheap alternative called [kinBP](https://github.com/DmNosachev/kinbp) (will be published soon)). Kin80 uses different matrix (12×7) and it is aimed at serious modding of the Kinesis keyboard.
 
 ## Features
-- Controller with [QMK firmware](https://qmk.fm/) support. The code is temporarily hosted in a [my fork](https://github.com/DmNosachev/qmk_firmware/tree/kinesis80/keyboards/kinesis80), will be merged into the main branch ASAP.
+- Controller with [QMK firmware](https://qmk.fm/) support.
 
 ![Controller PCB](https://i.imgur.com/wtBfSYd.png)
 

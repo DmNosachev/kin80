@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name stm32_boards)(type Legacy)(uri ${KIPRJMOD}/lib/stm32_boards.lib)(options "")(descr ""))
+  (lib (name nice_nano)(type Legacy)(uri C:/Users/nosachevd/YandexDisk/keyboards/kicad/nice-nano-kicad/nice_nano.lib)(options "")(descr ""))
+)

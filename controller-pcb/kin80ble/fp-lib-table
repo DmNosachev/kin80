@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints)(options "")(descr ""))
+  (lib (name nice-nano-kicad)(type KiCad)(uri C:/Users/nosachevd/YandexDisk/keyboards/kicad/nice-nano-kicad)(options "")(descr ""))
+)
