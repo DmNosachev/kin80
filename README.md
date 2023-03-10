@@ -68,6 +68,7 @@ Additional pads for connecting up to 4 swithes (i.e. additional switches on the 
 3. If you plan to reuse the stock switches, then remove the diodes from them (IMHO, it will make further hand-wiring easier). Desolder the switches from thumb cluster PCBs.
 
 You may notice that swiches are glued with hot-melt adhesive. To remove it, just wipe it with isopropyl alcohol. It will not dissolve the glue, but make it lose its adhesive properties.
+
 4. Hand-wire the key-wells. You need *ROW2COL* direction, i.e. the anode of each diode must be connected to a switch pin, cathode (marked by black strip) — to row. See [Modern handwiring guide](https://geekhack.org/index.php?topic=87689.0).
 ![Kin80 assembled](https://i.imgur.com/PMj0pi5.jpg)
 5. Assemble thumb cluster PCBs.
